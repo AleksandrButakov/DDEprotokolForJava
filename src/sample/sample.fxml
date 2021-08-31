@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="formSample" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" style="-fx-background-color: #0985F6;" xmlns="http://javafx.com/javafx/8.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+    <children>
+        <AnchorPane layoutY="67.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="197.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="67.0">
+            <children>
+                <Label fx:id="Label1" layoutX="174.0" layoutY="29.0" prefHeight="20.0" prefWidth="110.0" text="NULL" AnchorPane.leftAnchor="174.0">
+                    <font>
+                        <Font name="Yu Gothic Medium" size="16.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="login_field" layoutX="55.0" layoutY="167.0" promptText="ЛОГИН" visible="false">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="password_field" layoutX="386.0" layoutY="167.0" promptText="ПАРОЛЬ" visible="false">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </PasswordField>
+                <Button fx:id="Button2" disable="true" layoutX="250.0" layoutY="120.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="100.0" text="Stop" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                    <effect>
+                        <DropShadow color="#0985f6" />
+                    </effect>
+                </Button>
+                <Button fx:id="Button3" layoutX="400.0" layoutY="120.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="100.0" text="Close" AnchorPane.rightAnchor="100.0">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                    <effect>
+                        <DropShadow color="#0985f6" />
+                    </effect>
+                </Button>
+                <Button fx:id="Button1" layoutX="100.0" layoutY="120.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="100.0" text="Start" AnchorPane.leftAnchor="100.0">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                    <effect>
+                        <DropShadow color="#0985f6" />
+                    </effect>
+                </Button>
+            <Label fx:id="Label2" layoutX="316.0" layoutY="29.0" prefWidth="110.0" text="NULL" AnchorPane.rightAnchor="174.0">
+               <font>
+                  <Font name="Yu Gothic Medium" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="Label3" layoutX="458.0" layoutY="29.0" prefWidth="110.0" text="NULL" AnchorPane.rightAnchor="32.0">
+               <font>
+                  <Font name="Yu Gothic Medium" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="Label4" layoutX="32.0" layoutY="61.0" prefWidth="110.0" text="NULL" AnchorPane.leftAnchor="32.0">
+               <font>
+                  <Font name="Yu Gothic Medium" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="Label5" layoutX="174.0" layoutY="61.0" prefWidth="110.0" text="NULL" AnchorPane.leftAnchor="174.0">
+               <font>
+                  <Font name="Yu Gothic Medium" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="Label6" layoutX="316.0" layoutY="61.0" prefWidth="110.0" text="NULL" AnchorPane.rightAnchor="174.0">
+               <font>
+                  <Font name="Yu Gothic Medium" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="Label7" layoutX="458.0" layoutY="61.0" prefWidth="110.0" text="NULL" textFill="#0985f6" AnchorPane.rightAnchor="32.0">
+               <font>
+                  <Font name="Yu Gothic Medium" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="LabelInv" alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="32.0" layoutY="29.0" prefHeight="4.0" prefWidth="110.0" text="NULL" AnchorPane.leftAnchor="32.0">
+               <font>
+                  <Font name="Yu Gothic Medium" size="16.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+        <Label alignment="CENTER" layoutX="35.0" layoutY="17.0" text="C A B L E   I N S U L A T I O N   C O N T R O L" textFill="WHITE" AnchorPane.leftAnchor="35.0" AnchorPane.rightAnchor="34.0">
+            <font>
+                <Font name="Yu Gothic Medium" size="25.0" />
+            </font>
+        </Label>
+        <Label layoutX="323.0" layoutY="274.0" text="Developer: Butakov Alexander. All rights reserved." textFill="WHITE" AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="14.0" />
+    </children>
+</AnchorPane>
